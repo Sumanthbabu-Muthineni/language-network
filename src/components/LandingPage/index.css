@@ -46,7 +46,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding: 15px;
+  padding: 25px;
   color: #ffffff;
 }
 .bg-container {
@@ -55,6 +55,56 @@
   width: 100vw;
 }
 .language-stages {
-  font-size: 50px;
+  font-size: 30px;
   font-family: 'Roboto';
+}
+.button-french {
+  background: linear-gradient(180deg, #58d69d 0%, #13bfab 100%);
+  width: 300px;
+  height: 50px;
+  border-radius: 10px;
+}
+.images-cards {
+  margin-bottom: 20px;
+}
+.Efil-Container {
+  background-color: #ffffff;
+  padding: 15px;
+}
+.french-worth {
+  color: #13bfab;
+  margin-bottom: 10px;
+}
+.eiffel-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.eiffel-para {
+  font-size: 25px;
+  padding: 10px;
+  margin-bottom: 15px;
+}
+.eiffel-para-below {
+  font-size: 30px;
+  margin-bottom: 10px;
+}
+.list-item {
+  padding: 20px;
+  font-size: 18px;
+  font-family: 'Poppins';
+}
+.Prices-container {
+  display: flex;
+  flex-direction: column;
+  background-color: #000000;
+  justify-content: center;
+  align-items: center;
+  color: #ffffff;
+  padding: 20px;
+  font-family: 'Bree-serif';
+}
+.learning-type-container {
+  margin-bottom: 15px;
 }
