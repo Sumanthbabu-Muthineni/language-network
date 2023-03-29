@@ -26,6 +26,7 @@
   justify-content: space-evenly;
   align-items: center;
   margin-top: 25x;
+  margin-bottom: 50px;
 }
 .course-details-container {
   background-color: #f4f4f4;
@@ -37,9 +38,7 @@
   padding: 10px;
   margin-bottom: 20px;
 }
-.banjour-image {
-  width: 500px;
-}
+
 .black-container {
   background-color: #000000;
   display: flex;
@@ -55,7 +54,7 @@
   width: 100vw;
 }
 .language-stages {
-  font-size: 30px;
+  font-size: 20px;
   font-family: 'Roboto';
 }
 .button-french {
@@ -108,13 +107,7 @@
 .learning-type-container {
   margin-bottom: 15px;
 }
-.banjour-background {
-  width: 711px;
-  height: 450px;
-  background: #53d59f;
-  border-radius: 49px;
-  margin-bottom: 15px;
-}
+
 .learning-french-container {
   margin-top: 25px;
 }
@@ -204,4 +197,27 @@
   align-items: center;
   margin-top: 80px;
   padding: 10px;
+}
+.about {
+  font-size: 20px;
+  text-align: center;
+}
+.student {
+  width: 80px;
+  height: 80px;
+}
+.banjour-image {
+  width: 600px;
+  height: 430.43px;
+}
+.banjour-background {
+  width: 701px;
+  height: 450px;
+  left: 824px;
+  top: 623px;
+  display: flex;
+
+  padding-top: 50px;
+  background: #53d59f;
+  border-radius: 60px;
 }

@@ -1,5 +1,6 @@
 import './index.css'
 import {Component} from 'react'
+import {Link} from 'react-router-dom'
 
 class LandingPage extends Component {
   render() {
@@ -12,11 +13,15 @@ class LandingPage extends Component {
                 src="https://i.postimg.cc/HWwVYms6/TLN-logo-1.png"
                 alt="web-site-Logo"
               />
+              <Link to="/about">
+                <p className="about">About</p>
+              </Link>
               <hr />
             </div>
             <div className="opening-page-container">
               <h1>
-                Learn French online and gain the confidence to speak fluently.
+                Learn French online and gain the <br /> confidence to speak
+                fluently.
               </h1>
               <p>
                 Learn about all the basics and wonders of the French Language by
@@ -33,6 +38,7 @@ class LandingPage extends Component {
                   <img
                     src="https://i.postimg.cc/MpGtSdxp/student-1.png"
                     alt="student"
+                    className="student"
                   />
                   <div>
                     <p>5000+</p>
@@ -43,6 +49,7 @@ class LandingPage extends Component {
                   <img
                     src="https://i.postimg.cc/MKYjzQmP/bulb-2.png"
                     alt="student"
+                    className="student"
                   />
                   <div>
                     <p>50000+</p>
@@ -53,6 +60,7 @@ class LandingPage extends Component {
                   <img
                     src="https://i.postimg.cc/PqJ6WhqH/training-1.png"
                     alt="alpha mentors"
+                    className="student"
                   />
                   <div>
                     <p>150+</p>
@@ -117,27 +125,62 @@ class LandingPage extends Component {
                 But outside of that, there are several more top reasons to learn
                 French:
               </p>
-              <ol type="1" className="order-list-container">
-                <li className="list-item">
-                  French is the official language of 29 countries. Open up those
-                  travel plans, y’all!
+              <ul className="type-unorder-list">
+                <li>
+                  <div className="numbering-container">
+                    <div className="circle-container">
+                      <p>1</p>
+                    </div>
+                    <div>
+                      <p className="number-para">
+                        French is the official language of 29 countries. Open up
+                        those travel plans, y’all!
+                      </p>
+                    </div>
+                  </div>
                 </li>
-                <li className="list-item">
-                  Learn about new cultures from around the globe: whether it’s
-                  cooking, fashion, theatre, arts or architecture, French offers
-                  access to a world of new interests.
+                <li>
+                  <div className="numbering-container">
+                    <div className="circle-container">
+                      <p>2</p>
+                    </div>
+                    <div>
+                      <p className="number-para">
+                        Learn about new cultures from around the globe: whether
+                        it’s cooking, fashion, theatre, arts or architecture
+                      </p>
+                    </div>
+                  </div>
                 </li>
-                <li className="list-item">
-                  French is a ‘romance’ language. That means it’ll get you
-                  closer to learning other languages like Spanish, Italian and
-                  Portuguese. Bonus!
+                <li>
+                  <div className="numbering-container">
+                    <div className="circle-container">
+                      <p>3</p>
+                    </div>
+                    <div>
+                      <p className="number-para">
+                        French is a ‘romance’ language. That means it’ll get you
+                        closer to learning other languages like Spanish, Italian
+                        and Portuguese.
+                      </p>
+                    </div>
+                  </div>
                 </li>
-                <li className="list-item">
-                  When someone asks “Does anyone here speak French?” in any
-                  given scenario, you can be the hero they never knew they
-                  needed.
+                <li>
+                  <div className="numbering-container">
+                    <div className="circle-container">
+                      <p>4</p>
+                    </div>
+                    <div>
+                      <p className="number-para">
+                        When someone asks “Does anyone here speak French?” in
+                        any given scenario, you can be the hero they never knew
+                        they needed.
+                      </p>
+                    </div>
+                  </div>
                 </li>
-              </ol>
+              </ul>
             </div>
           </div>
           <div className="Prices-container">
