@@ -60,7 +60,7 @@ class LandingPage extends Component {
                   </div>
                 </div>
               </div>
-              <div>
+              <div className="banjour-background">
                 <img
                   src="https://i.postimg.cc/15T4mrNK/image-1.png"
                   alt="Bonjour"
@@ -152,6 +152,102 @@ class LandingPage extends Component {
             <img
               src="https://i.postimg.cc/L6knd9Y3/image-14.png"
               alt="prices-list"
+            />
+          </div>
+
+          <div className="learning-french-container">
+            <h1 className="french-head">Learning French at any age</h1>
+            <div className="para-container">
+              <p className="french-para">
+                You should remember that you can be ANY age and start learning a
+                new language! The idea
+                <br /> that there’s a cut-off point for language acquisition is
+                incredibly common. People think that unless you <br />
+                learned a language when you were a child, there’s no hope and
+                it’ll be near-impossible to grasp. <br /> <br />
+                NEWSFLASH: That’s not the case! Learning French as an adult or
+                young adult IS possible. You CAN <br />
+                grasp a language, no matter your age. The difference between
+                adults learning and children learning
+                <br />
+                is that children are pretty much fearless when it comes to
+                making mistakes. Did you know that <br />
+                language anxiety affects around a third of adult learners?
+                Because many of us have this fear, there’s a<br /> risk we miss
+                out on learning key French words and phrases.
+                <br />
+                <br /> So whether you’re 5 or 50, you can learn French easily by
+                consistently practising! The best way to learn <br />
+                French is to be mindful of the fact that languages are about
+                more than just vocabulary and grammar.
+                <br /> Languages like French are built around people, culture,
+                and connection.
+                <br />
+                <br />
+              </p>
+              <div>
+                <button type="button" className="button-french">
+                  Start Learning French Online
+                </button>
+              </div>
+
+              <div className="discover-students-container">
+                <h1 className="discover-studnets">
+                  Discover what our students have to say
+                </h1>
+                <div>
+                  <img
+                    src="https://i.postimg.cc/VNb1rJvM/image-15.png"
+                    alt="student"
+                    className="student-pics"
+                  />
+                  <img
+                    src="https://i.postimg.cc/LX9pyNvk/image-16.png"
+                    alt="student"
+                    className="student-pics"
+                  />
+                  <img
+                    src="https://i.postimg.cc/FHy820YT/image-17.png"
+                    alt="student"
+                    className="student-pics"
+                  />
+                </div>
+
+                <div className="faqs-container">
+                  <h1>FAQs: Here’s everything you may ask...</h1>
+                  <img
+                    src="https://i.postimg.cc/Qd2qQMh1/image-18.png"
+                    alt="faqs"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="footer-container">
+            <h1>Have fun learning French today</h1>
+            <button className="online-button" type="button">
+              Start Learning French Online
+            </button>
+            <div className="footer-logos">
+              <img
+                alt="footer"
+                src="https://i.postimg.cc/7hwSZB0W/image-19.png"
+              />
+            </div>
+          </div>
+
+          <div className="footer-section">
+            <img
+              src="https://i.postimg.cc/HWwVYms6/TLN-logo-1.png"
+              alt="language-network"
+            />
+            <p>
+              For any support, please mail to info@thelanguagenetwork.co. Our
+              support team will get back to you within 24 hours.
+            </p>
+            <img
+              src="https://i.postimg.cc/kX9DL6vf/image-20.png"
+              alt="bottom-footer"
             />
           </div>
         </div>

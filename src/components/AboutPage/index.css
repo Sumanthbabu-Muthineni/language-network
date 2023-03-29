@@ -1,0 +1,85 @@
+.bg-container2 {
+  background-color: #ffffff;
+  background-size: cover;
+  height: 100vh;
+}
+.about-description {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-direction: row;
+  padding: 35px;
+}
+.overall-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.banjour-image {
+  border-radius: 10px;
+}
+.about-description-container {
+  margin-right: 25px;
+}
+.description-head {
+  font-size: 45px;
+}
+.description-para {
+  font-size: 19px;
+}
+.course-details-container {
+  background-color: #f4f4f4;
+  width: 399px;
+  height: 104px;
+  border-radius: 3px;
+  display: flex;
+  flex-direction: row;
+  padding: 10px;
+  margin-bottom: 20px;
+  margin-right: 15px;
+  justify-content: center;
+}
+.course-stats-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.logo-description {
+  margin-left: 15px;
+  margin-top: 10px;
+}
+.chrono-container {
+  width: 680px;
+  height: 1400px;
+  text-align: left;
+  margin-bottom: 20px;
+}
+.motos-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.circle-container {
+  width: 60px;
+  height: 60px;
+  background: rgba(88, 214, 157, 0.19);
+  color: #13bfab;
+  border-radius: 30px;
+  text-align: center;
+  font-size: 22px;
+  margin-right: 15px;
+  padding-bottom: 5px;
+}
+.numbering-container {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 20px;
+}
+.number-para {
+  font-size: 20px;
+}
+.type-unorder-list {
+  list-style-type: none;
+}
